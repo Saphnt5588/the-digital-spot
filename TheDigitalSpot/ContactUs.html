@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" href="Images/favicon.svg" type="image/icon type">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="topnav">
+                    <a href="Homepage.html">Inicio</a> 
+                    <a href="Blogs.html">Blogs</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            Conócenos <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="about.html">Conócenos</a>
+                            <a href="autobiografia.html">Autobiografía</a>
+                            <a href="ContactUs.html" class="active">Contacto</a> <!--Activo-->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <header>
+            <h1>Contacto</h1>
+        </header>
+
+        <main>
+            <section class="contact-section">
+                <article class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    <p>Si tienes alguna pregunta, comentario o simplemente deseas ponerte en contacto conmigo, ¡estaré encantada de recibir tu mensaje!</p>
+                    <p>Email: <a href="mailto:acostaolga94@gmail.com">acostaolga94@gmail.com</a></p>
+                    <p>Síguenos en redes sociales:</p>
+                    <p>
+                        <a href="https://www.nintendo.com/us/" target="_blank">Nintendo</a>,
+                        <a href="https://www.ea.com/" target="_blank">EA</a>,
+                        <a href="https://sonicxshadowgenerations.com/?lang=en" target="_blank">SEGA</a>
+                    </p>
+                </article>
+
+                <article class="contact-form">
+                    <h2>Envíame un Mensaje</h2>
+                    <form action="mailto:acostaolga94@gmail.com" method="post" enctype="text/plain">
+                        <label for="name">Nombre:</label><br>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="email">Correo Electrónico:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="message">Mensaje:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                        <button type="submit" class="form-button">Enviar</button>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer> <!--Footer section-->
+            <footer>
+                <p>© TDS. All rights reserved.</p>
+                <p>Prodcuts and Images Credit To: 
+                    <a href="https://www.ea.com/">EA</a></p>
+                <p>Follow us on:
+                  <a href="https://www.nintendo.com/us/" target="_blank">Nintendo</a>,
+                  <a href="https://en.bandainamcoent.eu/dragon-ball/dragon-ball-sparking-zero" target="_blank">Bandai</a>,
+                  <a href="https://sonicxshadowgenerations.com/?lang=en" target="_blank">SEGA</a>
+                </p>
+                <p>Contact us: <a href="acostaolga94@gmail.com">acostaolga94@gmail.com</a></p>
+              </footer>
+        </footer>
+
+    </body>
+</html>
